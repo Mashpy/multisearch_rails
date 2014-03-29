@@ -4,7 +4,7 @@
     %ul.list-group.results
       - @wikipedia.each do |item|
         %li.list-group-item
-          = link_to item[:title], 'http://en.wikipedia.org' + item[:url], class: 'wiki',target: 'wiki'
+          = link_to item[:title], wiki_path(:id => account.id, :foo => "bar"), class: 'wiki',target: 'wiki'
           %p= item[:desc]
           %p
             %small= item[:data]
