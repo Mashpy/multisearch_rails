@@ -1,0 +1,14 @@
+//Template for Wikipedia
+.panel-new#panel-wiki
+  - if @wikipedia.any?
+    %ul.list-group.results
+      - @wikipedia.each do |item|
+        %li.list-group-item
+          = link_to item[:title], 'http://en.wikipedia.org' + item[:url], class: 'wiki',target: 'wiki'
+          %p= item[:desc]
+          %p
+            %small= item[:data]
+  - else
+    No Result found.
+#wiki-container
+  <iframe name="wiki" class="panel-new"></iframe>
