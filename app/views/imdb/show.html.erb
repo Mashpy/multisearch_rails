@@ -1,8 +1,3 @@
-this is show file
-<%=params[:page].to_s %>  
-
-  <ul>
-    <% @titlearray.each do |title| %>
-      <li><%= raw(title) %></li><br/>
-    <% end %>
-  </ul>
+<% @titlearray.each do |title| %>
+  <%= raw(title) %>
+<% end %>

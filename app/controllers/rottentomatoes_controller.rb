@@ -14,7 +14,14 @@ class RottentomatoesController < ApplicationController
         rottenurl = "http://www.rottentomatoes.com"+page
         doc = Nokogiri::HTML(open(rottenurl))
         @titlearray = []
-        doc.css(".pinterestImage , .critic_consensus, .critic_stats, .right_col, #mobPanel .left_col, #movieSynopsis, .movie_title span").each do |titlecss|
+        doc.css("body").each do |titlecss|
+            
+           titlecss.css('a').each do |anc|
+          if anc.attributes['href'].try(:value).present?
+            anc.attributes['href'].value = 'http://www.rottentomatoes.com' + anc.attributes['href'].value
+           anc['target'] = '_blank'
+          end
+        end
         @titlearray << titlecss.inner_html
      end
   end

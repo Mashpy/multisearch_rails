@@ -15,6 +15,12 @@ class WikiController < ApplicationController
         doc = Nokogiri::HTML(open(wikiurl))
         @titlearray = []
         doc.css("#bodyContent").each do |titlecss|
+       titlecss.css('a').each do |anc|
+          if anc.attributes['href'].try(:value).present?
+            anc.attributes['href'].value = 'http://en.wikipedia.org' + anc.attributes['href'].value
+           anc['target'] = '_blank'
+          end
+        end
         @titlearray << titlecss.inner_html
      end
   end
