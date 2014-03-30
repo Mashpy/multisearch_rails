@@ -10,7 +10,7 @@
               %li.list-group-item
                 %span.pull-left
                   = image_tag proxy_img_path(url: item[:img]) if item[:img]
-                = link_to item[:title], 'http://imdb.com' + item[:url].to_s, target: 'imdb', class: 'imdb'
+                = link_to item[:title], '/imdb/show?page=' + item[:url].to_s, target: 'imdb', class: 'imdb'
   - else
     No Result found.
     
