@@ -20613,3 +20613,2481 @@ Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 09:06:57 +0600
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 09:06:57 +0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 18:05:26 +0600
+Processing by HomeController#index as HTML
+  Rendered home/_wikipedia.haml (5.6ms)
+  Rendered home/_imdb.haml (2.8ms)
+  Rendered home/_rtomatoes.haml (2.8ms)
+  Rendered home/index.haml within layouts/application (44.9ms)
+Completed 200 OK in 661ms (Views: 618.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:27 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 18:05:28 +0600
+
+
+Started GET "/suggest.json?term=i" for 127.0.0.1 at 2014-03-30 18:05:31 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"i"}
+Completed 200 OK in 31528ms (Views: 2.7ms)
+
+
+Started GET "/suggest.json?term=in" for 127.0.0.1 at 2014-03-30 18:06:03 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"in"}
+Completed 200 OK in 24312ms (Views: 4.4ms)
+
+
+Started GET "/suggest.json?term=ind" for 127.0.0.1 at 2014-03-30 18:06:27 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ind"}
+Completed 200 OK in 3577ms (Views: 2.5ms)
+
+
+Started GET "/suggest.json?term=indi" for 127.0.0.1 at 2014-03-30 18:06:30 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"indi"}
+Completed 500 Internal Server Error in 20320ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:22:in `suggest'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.5ms)
+
+
+Started GET "/suggest.json?term=india" for 127.0.0.1 at 2014-03-30 18:06:51 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"india"}
+Completed 200 OK in 26452ms (Views: 2.8ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=india" for 127.0.0.1 at 2014-03-30 18:07:17 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"india"}
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+Processing by HomeController#index as HTML
+  Rendered home/_wikipedia.haml (2.8ms)
+  Rendered home/_imdb.haml (2.9ms)
+  Rendered home/_rtomatoes.haml (2.9ms)
+  Rendered home/index.haml within layouts/application (22.8ms)
+Completed 200 OK in 553ms (Views: 525.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:56 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 18:07:57 +0600
+
+
+Started GET "/suggest.json?term=i" for 127.0.0.1 at 2014-03-30 18:08:00 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"i"}
+Completed 200 OK in 37541ms (Views: 3.1ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=i" for 127.0.0.1 at 2014-03-30 18:08:37 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"i"}
+  Rendered home/_wikipedia.haml (3.7ms)
+  Rendered home/_imdb.haml (6.6ms)
+  Rendered home/_rtomatoes.haml (8.2ms)
+  Rendered home/index.haml within layouts/application (51.0ms)
+Completed 200 OK in 32956ms (Views: 75.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:10 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMjI2Mjk3NTA5NF5BMl5BanBnXkFtZTgwODk0NzAzMDE%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:09:11 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMjI2Mjk3NTA5NF5BMl5BanBnXkFtZTgwODk0NzAzMDE@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (27.0ms)
+Completed 200 OK in 16622ms (Views: 26.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 18:09:27 +0600
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTUzMTkzMjcxM15BMl5BanBnXkFtZTcwODM0MjczMQ%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:09:27 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTUzMTkzMjcxM15BMl5BanBnXkFtZTcwODM0MjczMQ@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 3101ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Fname-2138558783._V379389446_.png" for 127.0.0.1 at 2014-03-30 18:09:30 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png"}
+Completed 500 Internal Server Error in 21428ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.8ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BOTY2NTA0MTg1Ml5BMl5BanBnXkFtZTYwMDY1NzQ0._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:09:52 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BOTY2NTA0MTg1Ml5BMl5BanBnXkFtZTYwMDY1NzQ0._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.1ms)
+Sent data  (0.9ms)
+Completed 200 OK in 25438ms (Views: 0.8ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTQzMDMwNjkxN15BMl5BanBnXkFtZTcwMDI0MTM5OA%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:17 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTQzMDMwNjkxN15BMl5BanBnXkFtZTcwMDI0MTM5OA@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 5903ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTQzMDU4OTg2OV5BMl5BanBnXkFtZTcwMTI0MjIyOA%40%40._V1_SY44_CR1%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:23 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTQzMDU4OTg2OV5BMl5BanBnXkFtZTcwMTI0MjIyOA@@._V1_SY44_CR1,0,32,44_.jpg"}
+  Rendered text template (0.1ms)
+Sent data  (0.9ms)
+Completed 200 OK in 3508ms (Views: 0.8ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTU3MjAwMzE0Nl5BMl5BanBnXkFtZTYwNjYxNDE2._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:27 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTU3MjAwMzE0Nl5BMl5BanBnXkFtZTYwNjYxNDE2._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 6192ms (Views: 0.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BNTQ2NjU5NTE4N15BMl5BanBnXkFtZTcwNDExNDk1Mw%40%40._V1_SY44_CR5%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:33 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BNTQ2NjU5NTE4N15BMl5BanBnXkFtZTcwNDExNDk1Mw@@._V1_SY44_CR5,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 671ms (Views: 0.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BNjc0NDM0OTI2Nl5BMl5BanBnXkFtZTYwMjI2NDgy._V1_SY44_CR1%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:34 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BNjc0NDM0OTI2Nl5BMl5BanBnXkFtZTYwMjI2NDgy._V1_SY44_CR1,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+Completed 200 OK in 614ms (Views: 0.4ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Ffilm-3119741174._V379391527_.png" for 127.0.0.1 at 2014-03-30 18:10:34 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 675ms (Views: 0.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTQ4NjEwNDA2Nl5BMl5BanBnXkFtZTcwNDUyNDQzNw%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:35 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTQ4NjEwNDA2Nl5BMl5BanBnXkFtZTcwNDUyNDQzNw@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 722ms (Views: 0.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BNzk5ODM0OTQ0N15BMl5BanBnXkFtZTcwODg2ODE4OA%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 18:10:36 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BNzk5ODM0OTQ0N15BMl5BanBnXkFtZTcwODg2ODE4OA@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (1.0ms)
+Completed 200 OK in 876ms (Views: 0.8ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent8.flixster.com%2Fmovie%2F11%2F15%2F34%2F11153458_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:10:37 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content8.flixster.com/movie/11/15/34/11153458_tmb.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 11194ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent8.flixster.com%2Fmovie%2F25%2F04%2F250414_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:10:48 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content8.flixster.com/movie/25/04/250414_tmb.jpg"}
+Completed 500 Internal Server Error in 20021ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.1ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent9.flixster.com%2Fmovie%2F10%2F93%2F90%2F10939047_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content9.flixster.com/movie/10/93/90/10939047_tmb.jpg"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent8.flixster.com%2Fmovie%2F10%2F94%2F47%2F10944718_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content8.flixster.com/movie/10/94/47/10944718_tmb.jpg"}
+Completed 500 Internal Server Error in 4ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent7.flixster.com%2Fmovie%2F11%2F17%2F00%2F11170077_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content7.flixster.com/movie/11/17/00/11170077_tmb.jpg"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent7.flixster.com%2Ftv%2F99%2F48%2F99481_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content7.flixster.com/tv/99/48/99481_tmb.jpg"}
+Completed 500 Internal Server Error in 3ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.3ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent9.flixster.com%2Ftv%2F99%2F42%2F99427_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content9.flixster.com/tv/99/42/99427_tmb.jpg"}
+Completed 500 Internal Server Error in 3ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent7.flixster.com%2Ftv%2F99%2F24%2F99249_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content7.flixster.com/tv/99/24/99249_tmb.jpg"}
+Completed 500 Internal Server Error in 4ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (23.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent9.flixster.com%2Ftv%2F80%2F05%2F80059_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content9.flixster.com/tv/80/05/80059_tmb.jpg"}
+Completed 500 Internal Server Error in 1ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent6.flixster.com%2Ftv%2F99%2F23%2F99232_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content6.flixster.com/tv/99/23/99232_tmb.jpg"}
+Completed 500 Internal Server Error in 1ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (29.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fimages.rottentomatoescdn.com%2Fimages%2Fredesign%2Factor.default.tmb.gif" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://images.rottentomatoescdn.com/images/redesign/actor.default.tmb.gif"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent6.flixster.com%2Fphoto%2F11%2F69%2F16%2F11691660_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:08 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content6.flixster.com/photo/11/69/16/11691660_tmb.jpg"}
+Completed 500 Internal Server Error in 1ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (39.8ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (60.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent6.flixster.com%2Fphoto%2F13%2F66%2F89%2F13668976_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:09 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content6.flixster.com/photo/13/66/89/13668976_tmb.jpg"}
+Completed 500 Internal Server Error in 1ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fimages.rottentomatoescdn.com%2Fimages%2Fredesign%2Fuser.none.tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:09 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://images.rottentomatoescdn.com/images/redesign/user.none.tmb.jpg"}
+Completed 500 Internal Server Error in 1ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (25.0ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent6.flixster.com%2Fcritic%2F20%2F2032_tmb.jpg" for 127.0.0.1 at 2014-03-30 18:11:09 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content6.flixster.com/critic/20/2032_tmb.jpg"}
+Completed 500 Internal Server Error in 2ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/home_controller.rb:30:in `proxy_img'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.1ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.1ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=i" for 127.0.0.1 at 2014-03-30 18:13:02 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"i"}
+  Rendered home/_wikipedia.haml (3.9ms)
+  Rendered home/_imdb.haml (6.1ms)
+  Rendered home/_rtomatoes.haml (7.8ms)
+  Rendered home/index.haml within layouts/application (22.8ms)
+Completed 200 OK in 119767ms (Views: 42.7ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=i" for 127.0.0.1 at 2014-03-30 18:15:02 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"i"}
+
+
+Started GET "/?utf8=%E2%9C%93&k=i" for 127.0.0.1 at 2014-03-30 18:15:38 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"i"}
+  Rendered home/_wikipedia.haml (7.8ms)
+  Rendered home/_imdb.haml (12.5ms)
+  Rendered home/_rtomatoes.haml (40.2ms)
+  Rendered home/index.haml within layouts/application (80.6ms)
+Completed 200 OK in 54393ms (Views: 563.9ms)
+
+
+Started GET "/wiki/show?page=bangladesh" for 127.0.0.1 at 2014-03-30 18:16:33 +0600
+Processing by WikiController#show as HTML
+  Parameters: {"page"=>"bangladesh", "id"=>"show"}
+Completed 500 Internal Server Error in 26471ms
+
+SocketError (getaddrinfo: Name or service not known):
+  app/controllers/wiki_controller.rb:15:in `show'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 18:16:59 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Fname-2138558783._V379389446_.png" for 127.0.0.1 at 2014-03-30 18:17:00 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png"}
+
+
+Started GET "/" for 127.0.0.1 at 2014-03-30 20:26:05 +0600
+Processing by HomeController#index as HTML
+  Rendered home/_wikipedia.haml (5.5ms)
+  Rendered home/_imdb.haml (2.8ms)
+  Rendered home/_rtomatoes.haml (5.8ms)
+  Rendered home/index.haml within layouts/application (54.5ms)
+Completed 200 OK in 1387ms (Views: 1341.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:07 +0600
+
+
+Started GET "/suggest.json?term=b" for 127.0.0.1 at 2014-03-30 20:26:09 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"b"}
+Completed 200 OK in 2305ms (Views: 2.4ms)
+
+
+Started GET "/suggest.json?term=ba" for 127.0.0.1 at 2014-03-30 20:26:11 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ba"}
+Completed 200 OK in 1439ms (Views: 2.3ms)
+
+
+Started GET "/suggest.json?term=ban" for 127.0.0.1 at 2014-03-30 20:26:13 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ban"}
+Completed 200 OK in 2945ms (Views: 2.2ms)
+
+
+Started GET "/suggest.json?term=bang" for 127.0.0.1 at 2014-03-30 20:26:16 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bang"}
+Completed 200 OK in 1654ms (Views: 2.8ms)
+
+
+Started GET "/suggest.json?term=bangl" for 127.0.0.1 at 2014-03-30 20:26:17 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangl"}
+Completed 200 OK in 1917ms (Views: 0.5ms)
+
+
+Started GET "/suggest.json?term=bangla" for 127.0.0.1 at 2014-03-30 20:26:19 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangla"}
+Completed 200 OK in 1760ms (Views: 0.3ms)
+
+
+Started GET "/suggest.json?term=banglad" for 127.0.0.1 at 2014-03-30 20:26:21 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglad"}
+Completed 200 OK in 3441ms (Views: 0.3ms)
+
+
+Started GET "/suggest.json?term=banglade" for 127.0.0.1 at 2014-03-30 20:26:25 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglade"}
+Completed 200 OK in 1970ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=bangladeh" for 127.0.0.1 at 2014-03-30 20:26:27 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangladeh"}
+Completed 200 OK in 1615ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=banglade" for 127.0.0.1 at 2014-03-30 20:26:28 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglade"}
+Completed 200 OK in 1583ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=banglades" for 127.0.0.1 at 2014-03-30 20:26:30 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglades"}
+Completed 200 OK in 6445ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=bangladesh" for 127.0.0.1 at 2014-03-30 20:26:36 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangladesh"}
+Completed 200 OK in 1369ms (Views: 0.3ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=bangladesh" for 127.0.0.1 at 2014-03-30 20:26:38 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"bangladesh"}
+  Rendered home/_wikipedia.haml (3.8ms)
+  Rendered home/_imdb.haml (7.0ms)
+  Rendered home/_rtomatoes.haml (1.2ms)
+  Rendered home/index.haml within layouts/application (16.4ms)
+Completed 200 OK in 11022ms (Views: 39.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Ffilm-3119741174._V379391527_.png" for 127.0.0.1 at 2014-03-30 20:26:49 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png"}
+  Rendered text template (0.0ms)
+Sent data  (66.5ms)
+Completed 200 OK in 912ms (Views: 66.3ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Fname-2138558783._V379389446_.png" for 127.0.0.1 at 2014-03-30 20:26:50 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 644ms (Views: 0.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTgyMzU3NjA3OF5BMl5BanBnXkFtZTcwNTAxNDEzMQ%40%40._V1_SY44_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 20:26:51 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTgyMzU3NjA3OF5BMl5BanBnXkFtZTcwNTAxNDEzMQ@@._V1_SY44_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+Completed 200 OK in 668ms (Views: 0.4ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BOTA5NDE0NDM2Nl5BMl5BanBnXkFtZTcwMjc4OTcyMQ%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 20:26:51 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BOTA5NDE0NDM2Nl5BMl5BanBnXkFtZTcwMjc4OTcyMQ@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 583ms (Views: 0.5ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent9.flixster.com%2Fmovie%2F10%2F84%2F24%2F10842471_tmb.jpg" for 127.0.0.1 at 2014-03-30 20:26:52 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content9.flixster.com/movie/10/84/24/10842471_tmb.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 939ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fimages.rottentomatoescdn.com%2Fimages%2Fredesign%2Fposter_default_thumb.gif" for 127.0.0.1 at 2014-03-30 20:26:53 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://images.rottentomatoescdn.com/images/redesign/poster_default_thumb.gif"}
+  Rendered text template (0.1ms)
+Sent data  (1.1ms)
+Completed 200 OK in 936ms (Views: 1.0ms)
+
+
+Started GET "/imdb/show?page=/title/tt2464824/?ref_=fn_al_tt_1" for 127.0.0.1 at 2014-03-30 20:27:50 +0600
+Processing by ImdbController#show as HTML
+  Parameters: {"page"=>"/title/tt2464824/?ref_=fn_al_tt_1"}
+  Rendered imdb/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 12666ms (Views: 77.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:03 +0600
+
+
+Started GET "/wiki/show?page=/wiki/Bangladesh" for 127.0.0.1 at 2014-03-30 20:28:19 +0600
+Processing by WikiController#show as HTML
+  Parameters: {"page"=>"/wiki/Bangladesh", "id"=>"show"}
+  Rendered wiki/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8871ms (Views: 43.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:28:28 +0600
+
+
+Started GET "/rottentomatoes/show?page=abc" for 127.0.0.1 at 2014-03-30 20:43:33 +0600
+Processing by RottentomatoesController#show as HTML
+  Parameters: {"page"=>"abc"}
+  Rendered rottentomatoes/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9551ms (Views: 1248.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/rottentomatoes.css?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:42 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/rottentomatoes.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:43:43 +0600
+
+
+Started GET "/suggest.json?term=i" for 127.0.0.1 at 2014-03-30 20:45:35 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"i"}
+Completed 200 OK in 1916ms (Views: 4.8ms)
+
+
+Started GET "/suggest.json?term=in" for 127.0.0.1 at 2014-03-30 20:45:37 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"in"}
+Completed 200 OK in 1909ms (Views: 1.4ms)
+
+
+Started GET "/suggest.json?term=ind" for 127.0.0.1 at 2014-03-30 20:45:39 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ind"}
+Completed 200 OK in 1882ms (Views: 2.1ms)
+
+
+Started GET "/suggest.json?term=indi" for 127.0.0.1 at 2014-03-30 20:45:41 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"indi"}
+Completed 200 OK in 1355ms (Views: 2.1ms)
+
+
+Started GET "/suggest.json?term=india" for 127.0.0.1 at 2014-03-30 20:45:42 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"india"}
+Completed 200 OK in 1380ms (Views: 2.8ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=india" for 127.0.0.1 at 2014-03-30 20:45:44 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"india"}
+  Rendered home/_wikipedia.haml (3.9ms)
+  Rendered home/_imdb.haml (7.1ms)
+  Rendered home/_rtomatoes.haml (38.8ms)
+  Rendered home/index.haml within layouts/application (54.8ms)
+Completed 500 Internal Server Error in 13114ms
+
+ActionView::Template::Error (invalid byte sequence in UTF-8):
+    11:               %li.list-group-item
+    12:                 %span.pull-left
+    13:                   = image_tag proxy_img_path(url: item[:img]) if item[:img]
+    14:                 = raw item[:html]
+    15: 
+    16:   - else
+    17:     No Result found.
+  app/views/home/_rtomatoes.haml:14:in `block (3 levels) in _app_views_home__rtomatoes_haml___272522621_74504230'
+  app/views/home/_rtomatoes.haml:10:in `each'
+  app/views/home/_rtomatoes.haml:10:in `block (2 levels) in _app_views_home__rtomatoes_haml___272522621_74504230'
+  app/views/home/_rtomatoes.haml:5:in `each_pair'
+  app/views/home/_rtomatoes.haml:5:in `block in _app_views_home__rtomatoes_haml___272522621_74504230'
+  app/views/home/_rtomatoes.haml:4:in `each'
+  app/views/home/_rtomatoes.haml:4:in `_app_views_home__rtomatoes_haml___272522621_74504230'
+  app/views/home/index.haml:27:in `_app_views_home_index_haml___841875384_79517440'
+
+
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.7ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/mashpy/.rvm/gems/ruby-1.9.3-p429/gems/actionpack-4.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (45.4ms)
+
+
+Started GET "/suggest.json?term=b" for 127.0.0.1 at 2014-03-30 20:46:08 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"b"}
+Completed 200 OK in 3527ms (Views: 2.3ms)
+
+
+Started GET "/suggest.json?term=ba" for 127.0.0.1 at 2014-03-30 20:46:12 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ba"}
+Completed 200 OK in 1201ms (Views: 2.8ms)
+
+
+Started GET "/suggest.json?term=ban" for 127.0.0.1 at 2014-03-30 20:46:13 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"ban"}
+Completed 200 OK in 1210ms (Views: 4.3ms)
+
+
+Started GET "/suggest.json?term=bang" for 127.0.0.1 at 2014-03-30 20:46:14 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bang"}
+Completed 200 OK in 1583ms (Views: 2.1ms)
+
+
+Started GET "/suggest.json?term=bangl" for 127.0.0.1 at 2014-03-30 20:46:16 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangl"}
+Completed 200 OK in 1419ms (Views: 0.5ms)
+
+
+Started GET "/suggest.json?term=bangla" for 127.0.0.1 at 2014-03-30 20:46:17 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangla"}
+Completed 200 OK in 1305ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=banglad" for 127.0.0.1 at 2014-03-30 20:46:19 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglad"}
+Completed 200 OK in 1650ms (Views: 0.5ms)
+
+
+Started GET "/suggest.json?term=banglade" for 127.0.0.1 at 2014-03-30 20:46:20 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglade"}
+Completed 200 OK in 1554ms (Views: 0.4ms)
+
+
+Started GET "/suggest.json?term=banglades" for 127.0.0.1 at 2014-03-30 20:46:22 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"banglades"}
+Completed 200 OK in 1410ms (Views: 0.3ms)
+
+
+Started GET "/suggest.json?term=bangladesh" for 127.0.0.1 at 2014-03-30 20:46:23 +0600
+Processing by HomeController#suggest as JSON
+  Parameters: {"term"=>"bangladesh"}
+Completed 200 OK in 1540ms (Views: 0.3ms)
+
+
+Started GET "/?utf8=%E2%9C%93&k=bangladesh" for 127.0.0.1 at 2014-03-30 20:46:25 +0600
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "k"=>"bangladesh"}
+  Rendered home/_wikipedia.haml (3.6ms)
+  Rendered home/_imdb.haml (7.0ms)
+  Rendered home/_rtomatoes.haml (1.2ms)
+  Rendered home/index.haml within layouts/application (16.5ms)
+Completed 200 OK in 10149ms (Views: 38.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/rottentomatoes.css?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/rottentomatoes.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:46:35 +0600
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Ffilm-3119741174._V379391527_.png" for 127.0.0.1 at 2014-03-30 20:46:36 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/film-3119741174._V379391527_.png"}
+  Rendered text template (0.0ms)
+Sent data  (0.7ms)
+Completed 200 OK in 692ms (Views: 0.6ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FG%2F01%2Fimdb%2Fimages%2Fnopicture%2F32x44%2Fname-2138558783._V379389446_.png" for 127.0.0.1 at 2014-03-30 20:46:36 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/G/01/imdb/images/nopicture/32x44/name-2138558783._V379389446_.png"}
+  Rendered text template (0.0ms)
+Sent data  (0.5ms)
+Completed 200 OK in 638ms (Views: 0.4ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BMTgyMzU3NjA3OF5BMl5BanBnXkFtZTcwNTAxNDEzMQ%40%40._V1_SY44_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 20:46:37 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BMTgyMzU3NjA3OF5BMl5BanBnXkFtZTcwNTAxNDEzMQ@@._V1_SY44_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 648ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fia.media-imdb.com%2Fimages%2FM%2FMV5BOTA5NDE0NDM2Nl5BMl5BanBnXkFtZTcwMjc4OTcyMQ%40%40._V1_SX32_CR0%2C0%2C32%2C44_.jpg" for 127.0.0.1 at 2014-03-30 20:46:38 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://ia.media-imdb.com/images/M/MV5BOTA5NDE0NDM2Nl5BMl5BanBnXkFtZTcwMjc4OTcyMQ@@._V1_SX32_CR0,0,32,44_.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.9ms)
+Completed 200 OK in 615ms (Views: 0.8ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fcontent9.flixster.com%2Fmovie%2F10%2F84%2F24%2F10842471_tmb.jpg" for 127.0.0.1 at 2014-03-30 20:46:38 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://content9.flixster.com/movie/10/84/24/10842471_tmb.jpg"}
+  Rendered text template (0.0ms)
+Sent data  (0.8ms)
+Completed 200 OK in 975ms (Views: 0.7ms)
+
+
+Started GET "/proxy_img?url=http%3A%2F%2Fimages.rottentomatoescdn.com%2Fimages%2Fredesign%2Fposter_default_thumb.gif" for 127.0.0.1 at 2014-03-30 20:46:39 +0600
+Processing by HomeController#proxy_img as HTML
+  Parameters: {"url"=>"http://images.rottentomatoescdn.com/images/redesign/poster_default_thumb.gif"}
+  Rendered text template (0.0ms)
+Sent data  (0.6ms)
+Completed 200 OK in 1095ms (Views: 0.5ms)
+
+
+Started GET "/rottentomatoes/show?page=/m/australia_vs_banladesh_2005/" for 127.0.0.1 at 2014-03-30 20:46:55 +0600
+Processing by RottentomatoesController#show as HTML
+  Parameters: {"page"=>"/m/australia_vs_banladesh_2005/"}
+  Rendered rottentomatoes/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 5139ms (Views: 21.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/rottentomatoes.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/rottentomatoes.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:01 +0600
+
+
+Started GET "/rottentomatoes/show?page=/m/australia_vs_banladesh_2005/" for 127.0.0.1 at 2014-03-30 20:47:13 +0600
+Processing by RottentomatoesController#show as HTML
+  Parameters: {"page"=>"/m/australia_vs_banladesh_2005/"}
+  Rendered rottentomatoes/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 6270ms (Views: 21.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/wiki.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/rottentomatoes.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/imdb.css?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.accordion.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.position.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.autocomplete.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.menu.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.button.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.datepicker.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.draggable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.resizable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:19 +0600
+
+
+Started GET "/assets/jquery.ui.droppable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.dialog.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-blind.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-bounce.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-clip.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-explode.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-drop.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fade.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-fold.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-highlight.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-shake.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-scale.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-pulsate.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-slide.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.effect-transfer.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.selectable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.progressbar.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.slider.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.spinner.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.tabs.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.tooltip.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/jquery.ui.all.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/imdb.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/rottentomatoes.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/wiki.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-03-30 20:47:20 +0600
