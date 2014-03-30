@@ -47,7 +47,7 @@ module Scraper
 
         b_html.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
-            anc.attributes['href'].value = 'http://localhost:3000/rottentomatoes/show?page=' + anc.attributes['href'].value
+            anc.attributes['href'].value = '/rottentomatoes/show?page=' + anc.attributes['href'].value
             anc['target'] = 'rtomatoes'
             anc.attributes['class'].value = 'rtomatoes' 
           end
