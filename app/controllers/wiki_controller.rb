@@ -17,6 +17,7 @@ class WikiController < ApplicationController
         doc.css("#bodyContent").each do |titlecss|
        titlecss.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
+
             anc.attributes['href'].value = 'http://en.wikipedia.org' + anc.attributes['href'].value
            anc['target'] = '_blank'
           end
@@ -25,4 +26,5 @@ class WikiController < ApplicationController
      end
   end
 
+end
 end
