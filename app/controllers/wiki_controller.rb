@@ -15,6 +15,7 @@ class WikiController < ApplicationController
         doc = Nokogiri::HTML(open(wikiurl))
         @titlearray = []
         doc.css("#bodyContent").each do |titlecss|
+       doc.xpath('//@style').remove  
        titlecss.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
 

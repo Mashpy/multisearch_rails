@@ -15,7 +15,9 @@ class RottentomatoesController < ApplicationController
         doc = Nokogiri::HTML(open(rottenurl))
         @titlearray = []
         doc.css("body").each do |titlecss|
-            
+         doc.css('#trailer_play_button , #movie_rating_widget, .col_300, .foot, .col_300 .content_box, #homepagenews, #freshlinks_sidebar, #features_sidebar, #discussionForum, #like_this, #audience_reviews, #contentReviews, #fb-friend-reviews-box, #watch-it-now, #on-dvd, #movies_sidebar a, #head').remove     
+         doc.css('#leaderboard_top_ad').remove  
+         doc.xpath('//@style').remove  
            titlecss.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
             anc.attributes['href'].value = 'http://www.rottentomatoes.com' + anc.attributes['href'].value

@@ -15,14 +15,8 @@ class ImdbController < ApplicationController
         doc = Nokogiri::HTML(open(imdburl))
         @titlearray = []
         doc.css("body").each do |titlecss|
-          doc.css('#navbar , #quicksearch, #navbar-query, #top_ad_wrapper, #bottom_ad_wrapper, .footer, .aux-content-widget-3').remove
-          doc.css(' #prometer').remove
-          doc.css('#name-pro-info , #boardsTeaser, .contribute, .see-more, h2, .subnav, .aux-content-widget-2').remove 
-          doc.css('.rightcornerlink').remove 
-          doc.css('#overview-bottom , .giga-star').remove 
-          doc.css('#ynd_557422').remove 
-          doc.css('#tn15crumbs , #tn15lhs, #action-box').remove 
-          
+          doc.xpath('//@style').remove 
+          doc.css('#img_primary a , .star-box-rating-widget, #ynd_2745629, #prometer, .star-box-giga-star, #overview-bottom, #titleRecs, .contribute, #boardsTeaser, #titleFAQ, #titleDidYouKnow, #footer, #maindetails_sidebar_bottom, #maindetails_sidebar_bottom .odd, #maindetails_sidebar_bottom .even, .aux-content-widget-2, .subnav, #top_ad_wrapper, #navbar').remove
                
           titlecss.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
