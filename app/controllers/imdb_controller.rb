@@ -17,7 +17,8 @@ class ImdbController < ApplicationController
         doc.css("body").each do |titlecss|
           doc.xpath('//@style').remove 
           doc.css('#img_primary a , .star-box-rating-widget, #ynd_2745629, #prometer, .star-box-giga-star, #overview-bottom, #titleRecs, .contribute, #boardsTeaser, #titleFAQ, #titleDidYouKnow, #footer, #maindetails_sidebar_bottom, #maindetails_sidebar_bottom .odd, #maindetails_sidebar_bottom .even, .aux-content-widget-2, .subnav, #top_ad_wrapper, #navbar').remove
-               
+          doc.css('#moka_form .aux-content-widget-3').remove
+          doc.css('.injected_slot').remove     
           titlecss.css('a').each do |anc|
           if anc.attributes['href'].try(:value).present?
             anc.attributes['href'].value = 'http://www.imdb.com' + anc.attributes['href'].value
