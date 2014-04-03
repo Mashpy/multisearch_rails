@@ -33,9 +33,7 @@ class ImdbController < ApplicationController
         doc.css("#img_primary").each do |imagecss|
         doc.xpath('//@style').remove 
         doc.css(".text-center").remove
-        doc.css("#titleCast .loadlate , #combined-photos .loadlate").remove
-        
-  
+
         imagecss.css('.cover a img').each do |anc|
           if anc.attributes['src'].try(:value).present?
             anc.attributes['src'].value = 'www.facebook.com/proxy_img?url=' + anc.attributes['src'].value
