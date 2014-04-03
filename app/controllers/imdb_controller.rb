@@ -34,9 +34,9 @@ class ImdbController < ApplicationController
         doc.xpath('//@style').remove 
         doc.css(".text-center").remove
   
-        imagecss.css('a').each do |anc|
-          if anc.attributes['href'].try(:value).present?
-            anc.attributes['href'].value = 'http://www.imdb.com' + anc.attributes['href'].value
+        imagecss.css('img').each do |anc|
+          if anc.attributes['src'].try(:value).present?
+            anc.attributes['src'].value = '/proxy_img?url=' + anc.attributes['src'].value
            anc['target'] = '_blank'
           end
         end
