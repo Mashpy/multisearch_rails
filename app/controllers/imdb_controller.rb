@@ -23,7 +23,8 @@ class ImdbController < ApplicationController
     doc.css('.left , #tn15adrhs, #tn15crumbs, #tn15lhs').remove
     doc.css('#charhelplink a').remove
     doc.css('hr , .rightcornerlink').remove
-      
+    doc.css('#knownfor img').remove
+     
     titlecss.css('a').each do |anc|
     if anc.attributes['href'].try(:value).present?
      if "http"==anc.attributes['href'].value[0..3]  || "www"==anc.attributes['href'].value[0..2]
