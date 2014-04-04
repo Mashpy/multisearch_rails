@@ -20,7 +20,8 @@ class ImdbController < ApplicationController
     doc.css('#moka_form .aux-content-widget-3').remove
     doc.css('.injected_slot').remove 
     doc.css('.ellipsis , #combined-photos .loadlate, #titleCast img').remove 
-    doc.css('.left , #tn15adrhs, #tn15crumbs, #tn15lhs').remove 
+    doc.css('.left , #tn15adrhs, #tn15crumbs, #tn15lhs').remove
+    doc.css('#charhelplink a').remove  
      
     titlecss.css('a').each do |anc|
     if anc.attributes['href'].try(:value).present?
