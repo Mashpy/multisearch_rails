@@ -13,6 +13,7 @@ class ImdbController < ApplicationController
     page = params[:page].to_s
     imdburl = "http://www.imdb.com" + page
     doc = Nokogiri::HTML(open(imdburl))
+    doc.encoding = 'utf-8'
     @titlearray = []
     doc.css("body").each do |titlecss|
     doc.xpath('//@style').remove 
