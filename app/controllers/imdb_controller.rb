@@ -21,8 +21,9 @@ class ImdbController < ApplicationController
     doc.css('.injected_slot').remove 
     doc.css('.ellipsis , #combined-photos .loadlate, #titleCast img').remove 
     doc.css('.left , #tn15adrhs, #tn15crumbs, #tn15lhs').remove
-    doc.css('#charhelplink a').remove  
-     
+    doc.css('#charhelplink a').remove
+    doc.css('hr , .rightcornerlink').remove
+      
     titlecss.css('a').each do |anc|
     if anc.attributes['href'].try(:value).present?
      if "http"==anc.attributes['href'].value[0..3]  || "www"==anc.attributes['href'].value[0..2]
