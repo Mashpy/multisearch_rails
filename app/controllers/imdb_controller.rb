@@ -27,6 +27,8 @@ class ImdbController < ApplicationController
     doc.css('#knownfor img').remove
     doc.css('.loadlate').remove
     doc.css('#moka_logo').remove
+    doc.css('.choose , #tn15content img, .media_strip_header').remove
+    doc.css('#main img').remove
      
     titlecss.css('a').each do |anc|
     if anc.attributes['href'].try(:value).present?
